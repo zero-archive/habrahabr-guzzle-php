@@ -1,7 +1,7 @@
 # Habrahabr Api HTTP адаптер использующий Http Guzzle
 
-[![Latest Stable Version](https://poser.pugx.org/dotzero/habrahabr_guzzle/version)](https://packagist.org/packages/tmtm/habrahabr_api)
-[![License](https://poser.pugx.org/dotzero/habrahabr_guzzle/license)](https://packagist.org/packages/tmtm/habrahabr_api)
+[![Latest Stable Version](https://poser.pugx.org/dotzero/habrahabr_guzzle/version)](https://packagist.org/packages/dotzero/habrahabr_guzzle)
+[![License](https://poser.pugx.org/dotzero/habrahabr_guzzle/license)](https://packagist.org/packages/dotzero/habrahabr_guzzle)
 
 ## Установка
 
