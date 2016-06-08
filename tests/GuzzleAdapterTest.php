@@ -148,4 +148,18 @@ class GuzzleAdapterTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('foo.bar', $config['headers']['client']);
         $this->assertEquals('foobar', $config['headers']['token']);
     }
+
+    /**
+     * @expectedException \Habrahabr\Api\Exception\NetworkException
+     */
+    public function testParseResponse()
+    {
+        $this->mock = new MockHandler([
+            new Response(),
+        ]);
+
+        $this->adapter = new GuzzleAdapter(['handler' => $this->mock]);
+
+        $this->adapter->get('/foobar');
+    }
 }
