@@ -1,0 +1,30 @@
+{
+    "name": "dotzero/habrahabr_guzzle",
+    "description": "Habrahabr Api HTTP адаптер использующий Http Guzzle",
+    "license": "MIT",
+    "keywords": ["habrahabr", "habr", "tmtm", "api", "guzzle"],
+    "authors": [
+        {
+            "name": "dotzero",
+            "email": "mail@dotzero.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "tmtm/habrahabr_api": "~0.1",
+        "guzzlehttp/guzzle": "~6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Habrahabr\\Api\\HttpAdapter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Habrahabr\\Tests\\Api\\": "tests/"
+        }
+    }
+}
